@@ -1,0 +1,21 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  padding-top: 5%;
+  gap: 25px;
+  z-index: 1;
+}
+button {
+  padding: 1% 5%;
+  border-radius: 10px;
+  border: none;
+  background-color: #027bff;
+  color: #fff;
+}
+button:hover {
+  cursor: pointer;
+  background: #1081fa;
+}
