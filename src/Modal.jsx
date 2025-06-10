@@ -30,7 +30,7 @@ function Modal({ isModalOpen, setIsModalOpen }) {
     if (formDataDate.getTime() > date.getTime()) {
       alert("Invalid Date of birth. Date of birth cannot be in the future.");
     }
-    if (formData.contact.length < 10) {
+    if (formData.phone.length < 10) {
       alert("Invalid phone number. Please enter a 10-digit phone number.");
     } else {
       setFormData({
